@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: #fafafa;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.container-main {
+    width: 85% !important;
+}
+
+.nav-main {
+    background-color: transparent;
+    box-shadow: 0px 0px 0px;
+}
+
+.footer-main {
+    background-color: transparent !important;
+}
