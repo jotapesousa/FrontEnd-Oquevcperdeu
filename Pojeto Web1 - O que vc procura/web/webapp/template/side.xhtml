@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+>
+<body>
+<ui:composition>
+    <side>
+        <ul id="slide-out" class="sidenav sidenav-fixed">
+
+            <li><h5 class="center">Menu de Opções</h5></li>
+            <li><div class="divider"></div></li>
+            <li>
+                <a href="${facesContext.externalContext.requestContextPath}/usuarios/lista.xhtml">Usuários</a>
+            </li>
+            <li><a href="#!">Second Link</a></li>
+
+            <li><a class="subheader">Subheader</a></li>
+            <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+            <li>
+                <ul class="collapsible accordion">
+                    <li>
+                        <a class="collapsible-header">Objetos<i class="material-icons">arrow_drop_down</i></a>
+                        <div class="collapsible-body">
+                            <ul>
+                                <li><a href="${facesContext.externalContext.requestContextPath}/objetos/form.xhtml">
+                                    Cadastrar</a></li>
+                                <li><a href="${facesContext.externalContext.requestContextPath}/objetos/lista.xhtml">
+                                    Lista
+                                </a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <ul class="collapsible accordion">
+                    <li>
+                        <a class="collapsible-header">Usuários<i class="material-icons">arrow_drop_down</i></a>
+                        <div class="collapsible-body">
+                            <ul>
+                                <li><a href="${facesContext.externalContext.requestContextPath}/usuarios/form.xhtml">
+                                    Cadastrar</a></li>
+                                <li><a href="${facesContext.externalContext.requestContextPath}/usuarios/lista.xhtml">
+                                    Lista
+                                </a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </side>
+</ui:composition>
+</body>
+</html>
